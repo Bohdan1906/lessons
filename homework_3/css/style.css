@@ -1,0 +1,177 @@
+/*Обнуляючі стилі*/
+@import url(nullsyle.css);
+/*--------------*/
+.title {
+	color: rgb(76, 47, 101);
+	font-size: 25px;font-weight: 700;
+}
+
+.source__link-one {
+color: red;
+font-size: 20px;
+font-weight: 900;
+}
+
+.taslife {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	color: black;
+	
+}
+.taslife__title {
+	font-size: 20px;
+	font-weight: 600;
+}
+.taslife__intro {
+	color: rgb(20, 204, 204);
+}
+.taslife__reasons {
+	color: red;
+}
+.reasons{
+	color: green;
+}
+.taslife__experience {
+	font-size: 20px;
+	font-style: italic;
+	color: rgb(204, 175, 9);
+}
+
+.taslife__Hete{
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.lifehak {
+	text-decoration: underline;
+	font-size: 20px;
+	color: rgb(56, 55, 55);
+}
+
+
+.taslife__lifehaks-haks {
+}
+.rule {
+	font-size: 18px;
+	font-weight: 900;
+}
+.rule__title-1,
+.rule__title-2,
+.rule__title-3,
+.rule__title-4,
+.rule__title-5,
+.rule__title-6,
+.rule__title-7,
+.rule__title-8,
+.rule__title-9,
+.rule__title-10 {
+	font-size: 20px;
+	color: rgb(11, 168, 11);
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.rule__text-1 {
+	color: burlywood;
+}
+
+.rule__text-2{
+	color: pink;
+}
+
+.rule__text-3 {
+	color: rgb(104, 101, 101);
+}
+
+.rule__text-4 {
+color: aquamarine;
+}
+.rule__link {
+	color: red;
+	text-decoration: underline;
+}
+
+.rule__text-6 {
+	color: palevioletred;
+}
+
+.text-6__link {
+	color: peru;
+}
+
+.rule__text-7 {
+	color: goldenrod;
+}
+
+.rule__text-8 {
+	color: darkcyan;
+}
+
+.rule__text-9 {
+	color: firebrick;
+}
+
+.rule__text-10 {
+	color: olive;
+}
+
+.footer {
+	font-size: 25px;
+	color: blueviolet;
+	text-decoration: underline;
+}
+
+.other-text {
+	color: gray;
+}	
+
+.other-text__training {
+	color: black;
+	font-size: 35px;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.other-text__top {
+	font-size: 30px;
+}
+
+.settings {
+	color: green;
+}
+.settings_1 {
+	color: blue;
+}
+
+.settings_2 > li { 
+	color: brown;
+}
+
+.settings_3 > li {
+	color: blueviolet;
+}
+
+.settings_4 {
+}
+
+.settings_5 ~ li {
+	color: red;
+}
+
+.settings_6 {
+}
+
+.more-settings {
+}
+	.more-settings__1 {
+		color: red;
+	}
+
+	.more-settings__2 ~ li {
+		color: aquamarine;
+	}
+
+	
+
+
+
