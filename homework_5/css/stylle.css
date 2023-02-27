@@ -1,0 +1,166 @@
+/* --stylles start-- */
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+/* --styless stop */
+
+/* ========================================================== */
+
+/* --main start-- */
+
+main{
+	max-width: 1440px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: poppins;
+}
+
+/* --main stop-- */
+
+/* ========================================================== */
+
+/* --p-1 start-- */
+.p-1{
+	margin-bottom: 25px;
+}
+/* --p-1 stop-- */
+
+/* ===================================================== */
+
+/* --section one start-- */
+.sections-one{
+	margin-top: 15px;
+	margin-bottom: 80px;
+	max-width: 816px;
+	margin: 0 auto;
+}
+
+.section-one__title {
+	margin-bottom: 0px auto 40px;
+	max-width: 816px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px; 
+	color: #212529;
+}
+
+.section-one__text {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px; 
+	color: #6C757D;
+}
+
+.desert-and-sky{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/* --section one stop-- */
+
+/* ========================================================== */
+
+/* --section twoo start-- */
+
+.section-twoo {
+	margin-bottom: 100px;
+}
+
+.section-twoo__title {
+	margin: 0px 312px 40px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color: #212529;
+}
+
+.section-twoo__text-one, .section-twoo__text-two {
+	margin: 0px 312px 80px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	color: #6C757D;
+}
+
+.section-twoo__images{
+	margin: 0px auto 80px;
+	max-width: 1240px;
+}
+
+.section-twoo__image{
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.girl-in-canoe {
+	padding-right: 15px;
+	max-width: 50%;
+}
+
+.lake-and-mountains{
+	max-width: 50%;
+	padding-left: 15px;
+}
+/* --section twoo stop-- */
+
+/* ================================================== */
+
+/*--section training start  */
+.section-training{
+	max-width: 640px;
+	margin: 0 auto;
+}
+.section-training_max-heigh{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 15px;
+	max-height: 100px;
+	color: #6C757D;
+	overflow: hidden;
+	text-indent: 25px;
+	margin-bottom: 20px;
+}
+
+.section-training__scroll{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	max-height: 100px;
+	color: #6C757D;
+	overflow: auto;
+	text-indent: 25px;
+	margin-bottom: 30px;
+}
+
+.section-training__max-width{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	color: #6C757D;
+	text-indent: 25px;
+	max-width: 40%;
+	margin: 0 auto 40px;
+}
+
+.section-training__display-block{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	color: #6C757D;
+	text-indent: 25px;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.section-training__display-inline{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	color: #6C757D;
+	text-indent: 25px;
+	margin-bottom: 25px;
+}
+
+.section-training__display-inline-t{
+	display: inline-block;
+}
+/* sektion training stop */
