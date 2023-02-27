@@ -1,0 +1,244 @@
+/* --null-style.css start-- */
+@import url("null-style.css");
+/* --nill-style.css stop-- */
+/* ======================================================== */
+/* --fonts start-- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,300italic,regular,500,500italic,700,700italic&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,700&display=swap");
+/* --fonts stop-- */
+/* ======================================================== */
+
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 0;
+	background-color: lightblue;
+}
+
+/* ======================================================= */
+/* --header start-- */
+.header{
+	width: 100%;
+	margin: 0 auto;
+	background: rgb(2,0,36);
+	background: linear-gradient(149deg, rgba(2,0,36,1) 0%, rgba(47,77,19,0.7847514005602241) 14%, rgba(15,95,17,1) 24%, rgba(39,106,14,1) 35%, rgba(73,121,9,1) 41%, rgba(61,136,51,1) 54%, rgba(232,227,50,1) 71%, rgba(206,221,128,1) 82%, rgba(0,212,255,1) 98%);
+}
+
+.header__container{
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 100px 15px;
+}
+
+.header__title{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: "Poppins", serif;
+	font-weight: 700;
+	font-style: italic;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+
+.header__title::after{
+	content: "";
+	width: 100%;
+	background-color: rgba(236, 242, 240, 0.526);
+	padding-bottom: 7px;
+	margin-top: 10px;
+	border-radius: 3px;
+	position: absolute;
+	display: block;
+}
+/* --header stop-- */
+
+/* ==================================================== */
+
+/* --main start */
+.main__container{
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 30px 15px;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: "Inter" ,serif;
+}
+/* --main stop-- */
+/* ===================================================== */
+
+/* --icons start-- */
+
+.icons{
+	border: 2px solid lightcoral;
+	border-radius: 25px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.icons__title{
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.icons__text{
+	margin-bottom: 50px;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+.icons__img{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: center;
+}
+/* --icons stop-- */
+/* ======================================================= */
+
+/* --design start-- */
+
+.design{
+	border: 2px solid lightcoral;
+	border-radius: 25px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.design__title{
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.design__text{
+	margin-bottom: 50px;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+.design__img{
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+.design__img div, .design__img img{
+	display: block;
+	margin: 0 auto 50px;
+}
+
+.design__img img:not(last-child){
+	display: block;
+	margin-bottom: 50px;
+}
+
+.design__color{
+	background: url(../img/design-svg/color.png) 0 0 no-repeat;
+	height: 610px;
+	width: 370px;
+}
+
+.designe__ellipse{
+	background: url(../img/design-svg/ellipse.png) 0 0 no-repeat;
+	height: 200px;
+	width: 200px;
+	background-color: #000;
+	margin-bottom: 30px;
+}
+
+.design__ayro-ui{
+	background: url(../img/design-svg/ayro-ui.png) 0 0 no-repeat;
+	height: 60px;
+	width: 80px;
+}
+
+.design__img img:last-child, .design__ img div:last-child{
+	margin-bottom: 10px;
+}
+/* --design stop-- */
+
+.content{
+	border: 2px solid lightcoral;
+	border-radius: 25px;
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.content__title{
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.content__text{
+	margin-bottom: 50px;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+.content__images-1, .content__images-2, .content__images-3, .content__images-4, .content__images-5, .content__images-6, .content__images-7{
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.business-card-pic, .girl-in-office-pic, .girl-in-red-blouse-pic, .girl-in-red-blouse-circle-pic, .laptop-and-monitor-pic, .laptop-pic, .look-at-the-celfone-pic, .men-thing-pic, .man-smile-pic, .mai-suit-pic, .work-computer-pic{
+	border-radius: 15px;
+	margin-right: 20px;
+}
+
+.business-card, .girl-in-office, .girl-in-red-blouse, .girl-in-red-blouse-circle, .laptop-and-monitor, .laptop-pic, .look-at-the-celfone, .men-thing, .man-smile, .mai-suit, .work-computer{
+	border-radius: 15px;
+}
+
+.man-laboratory, .men-thing{
+	max-width: 25%;
+}
+
+.work-computer{
+	max-width: 40%;
+	min-width: 45%;
+}
+
+
+.girl-in-red-blouse-circle img{
+	margin: auto;
+}
+
+
+.girls-laptop{
+	border-radius: 10px;
+}
+
+.content__images-1{
+	max-width: 100%;
+}
+
+.red-girl{
+	max-width: 100%;
+	border-radius: 15px;
+}
+
+.content__retinodisplay p{
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.red-girl-retino{
+	max-width: 100%;
+	border-radius: 30px;
+}
