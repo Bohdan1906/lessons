@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Homework 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header></header>
+		<main class="main">
+			<div class="main__container">
+				<!-- training start -->
+				<div class="main__treining training">
+					<div class="training__wrappage">
+						<form class="training__form form" action="#" method="get" enctype="multipart/form-data">
+							<!-- input start -->
+							<div class="training__line">
+								<label class="training__name" for="name-01">First name & last name</label>
+								<input class="training__text" id="name-01" name="username" required
+									placeholder="First name & last name" autocomplete="off" minlength="5" maxlength="10"
+									type="text">
+							</div>
+							<div class="training__mail">
+								<label class="form__email" for="email-01">E-mail</label>
+								<input type="email" class="training__e-mail" id="email-01" autocomplete="off" required
+									placeholder="Sign your e-mail" name="mail">
+							</div>
+							<div class="training__telephone">
+								<label class="training__phone" for="tel-01">Fone number</label>
+								<input class="training__tel" id="tel-01" autocomplete="off" required placeholder="+38"
+									minlength="11" maxlength="11" name="telephone" type="tel">
+							</div>
+							<div class="training__password">
+								<input class="training__pass" autocomplete="off" required minlength="6"
+									placeholder="Enter your password" name="password" type="password">
+							</div>
+							<div class="training__number">
+								<input class="training__num" autocomplete="off" placeholder="Enter number" name="digi"
+									type="number">
+							</div>
+							<div class="training__color">
+								<label class="training__col" for="color-01">Color</label>
+								<input class="training__paint" autocomplete="off" value="#04AA6D" id="color-01" type="color">
+							</div>
+							<div class="training__search">
+								<input class="training__find" autocomplete="off" name="search" placeholder="Search"
+									type="search">
+							</div>
+							<div class="training__date">
+								<input class="training__calendar" name="date" autocomplete="off" type="date">
+							</div>
+							<div class="training__range">
+								<input class="training__range-inp" autocomplete="off" name="range" type="range">
+							</div>
+							<div class="training__checkbox">
+								<input class="training__checked" id="study-01" checked name="checkbox" type="checkbox">
+								<label class="training__check" for="study-01">Навчаєшся старанно?</label>
+							</div>
+							<div class="training__checkbox-2">
+								<input disabled class="training__checked-2" id="study-02" checked name="checkbox"
+									type="checkbox">
+								<label class="training__check-2" for="study-02">Домашки виконуєш?</label>
+							</div>
+							<!-- input stop -->
+							<!-- radio buttons start -->
+							<div class="training__radio">
+								<input checked class="training__radio-in" id="laptop-01" required value="windows" name="laptop"
+									type="radio">
+								<label class="training__radio-lab" for="laptop-01">Windows</label>
+							</div>
+							<div class="training__radio">
+								<input class="training__radio-in" id="laptop-02" required value="mack" name="laptop"
+									type="radio">
+								<label class="training__radio-lab" for="laptop-02">Mack</label>
+							</div>
+							<div class="training__radio">
+								<input class="training__radio-in" id="laptop-03" required value="linux" name="laptop"
+									type="radio">
+								<label class="training__radio-lab" for="laptop-03">Linux</label>
+							</div>
+							<!-- radio buttons stop -->
+							<!-- fail start -->
+							<div class="training__file">
+								<input class="training__files" accept="image/jpg, image/png, image/jpeg, image/webp" name="file"
+									multiple type="file">
+							</div>
+							<!-- fail stop -->
+							<!-- ===================== -->
+							<!-- textarea start -->
+							<div class="training__textarea">
+								<textarea class="textarea-in" autocomplete="off" name="message" cols="100" rows="10"></textarea>
+							</div>
+							<!-- textarea stop -->
+							<!-- select start -->
+							<div class="training__select">
+								<select class="training__sel" name="list">
+									<option value="1">Punct 1</option>
+									<option selected value="2">Punct 2</option>
+									<option value="3">Punct 3</option>
+									<option value="4">Punct 4</option>
+									<option value="5">Punct 5</option>
+								</select>
+							</div>
+							<!-- select stop -->
+							<!-- button start-->
+							<button class="form__btn" type="reset">Reset</button>
+							<button class="form__button" type="submit">Send</button>
+							<!-- button stop -->
+						</form>
+					</div>
+				</div>
+				<!-- training stop -->
+				<!-- ================================================== -->
+				<!-- page-one start -->
+				<div class="main__page-one page-one">
+					<form class="page-one__form" action="#" method="get" enctype="multipart/form-data">
+						<div class="page-one__container">
+							<h4 class="page-one__subtitle">
+								Billing Details
+							</h4>
+							<div class="page-one__main-forms">
+								<div class="page-one__main-top">
+									<!-- left top start -->
+									<div class="page-one__left-top left-top">
+										<div>
+											<input class="left-top__first-name" required autocomplete="off" name="first username"
+												placeholder="First name*" type="text" tabindex="1">
+										</div>
+										<div>
+											<input class="left-top__adress" required autocomplete="off" name="adress" minlength="5"
+												maxlength="10" placeholder="Address*" type="text" tabindex="3">
+										</div>
+										<div>
+											<select class="left-top__country" name="country" required autocomplete="off"
+												tabindex="5">
+												<option value="">Country*</option>
+												<option value="">Ukrain</option>
+												<option value="2">USA</option>
+												<option value="3">Poland</option>
+												<option value="4">England</option>
+												<option value="5">Germany</option>
+												<option value="6">France</option>
+												<option value="7">Italia</option>
+												<option value="8">Canada</option>
+												<option value="9">Horvatia</option>
+												<option value="10">Norvegia</option>
+											</select>
+										</div>
+										<div>
+											<input class="left-top__postcode-1" required autocomplete="off" name="postcode-1"
+												placeholder="Postcode / ZIP*" type="text" tabindex="7">
+										</div>
+										<div>
+											<input class="left-top__postcode-2" required autocomplete="off" name="postcode-2"
+												placeholder="Postcode / ZIP*" type="text" tabindex="9">
+										</div>
+									</div>
+									<!-- left top stop -->
+									<!-- right top start -->
+									<div class="page-one__right-top right-top">
+										<div>
+											<input class="right-top__last-name" required autocomplete="off" name="last name"
+												placeholder="Last name*" type="text" tabindex="2">
+										</div>
+										<div>
+											<input class="right-top__adress-2" required autocomplete="off" name="adress-2"
+												placeholder="Address line 2*" type="text" tabindex="4">
+										</div>
+										<div>
+											<input class="right-top__city" required autocomplete="off" name="city"
+												placeholder="City/Town*" type="text" tabindex="6">
+										</div>
+										<div>
+											<input class="right-top__phone-1" required autocomplete="off" name="phone-1"
+												placeholder="Phone*" type="text" minlength="10" maxlength="11" tabindex="8">
+										</div>
+										<div>
+											<input class="right-top__phone-2" required autocomplete="off" name="phone-2"
+												placeholder="Phone*" type="text" minlength="10" maxlength="11" tabindex="10">
+										</div>
+									</div>
+									<!-- right top stop -->
+								</div>
+								<!-- main textarea start -->
+								<div class="page-one__main-textarea main-textarea">
+									<textarea class="main-textarea__txtar" placeholder="Last name*" name="Additional information"
+										autocomplete="off" required tabindex="11"></textarea>
+								</div>
+								<!-- main textarea stop -->
+								<!-- main check start -->
+								<div class="page-one__checkboxes">
+									<div class="page-one__checkbox-1">
+										<input class="page-one__checked-1" id="checked-1" checked name="checkbox-1"
+											type="checkbox" value="Create Account" tabindex="12">
+										<label class="page-one__check-1" for="checked-1">Create Account</label>
+									</div>
+									<div class="page-one__checkbox-2">
+										<input class="page-one__checked-2" id="checked-2" name="checkbox-1" type="checkbox"
+											value="Create Account" tabindex="13">
+										<label class="page-one__check-2" for="checked-2">Ship to a different address?</label>
+									</div>
+								</div>
+								<!-- main check stop -->
+								<!-- discount start -->
+								<div class="page-one__discount discount">
+									<h5 class="discount__subtitle">
+										Apply Coupon to get discount!
+									</h5>
+									<div class="discount__coupon-button">
+										<div class="discount__coupon">
+											<input class="discount__coupon-code" autocomplete="off" name="Coupon code"
+												placeholder="Coupon code" type="text" tabindex="14">
+										</div>
+										<div class="discount__button">
+											<button class="discount__btn" type="submit" tabindex="15">Apply Code</button>
+										</div>
+									</div>
+								</div>
+								<!-- discount stop -->
+							</div>
+						</div>
+					</form>
+				</div>
+				<!-- page-one stop -->
+				<!-- page-two start -->
+				<div class="main__page-two page-two">
+					<div class="page-two__container">
+						<h3 class="page-two__subtitle">
+							Shipping Address
+						</h3>
+						<!-- page-two__login stop -->
+						<form class="page-two__form-1" action="#" method="get" enctype="multipart/form-data">
+							<div class="page-two__login">
+								<div class="page-two__email">
+									<label class="page-two__mail" for="email-011">Email Address <span
+											class="page-two__red">*</span></label>
+									<input type="email" class="page-two__e-mail" id="email-011" autocomplete="off" required
+										value="roni_cost@example.com" name="mail" tabindex="16">
+								</div>
+								<div class="page-two__password">
+									<label class="page-two__pass" for="password-02">Password</label>
+									<input type="password" class="page-two__password-form" id="password-02" autocomplete="off"
+										placeholder="******************" name="password" tabindex="17">
+								</div>
+								<div class="page-two__zip">
+									<label class="page-two__postal-code" for="zip-02">Zip/Postal Code</label>
+									<input type="number" class="page-two__zip-form" id="zip-02" autocomplete="off" name="zip"
+										tabindex="18">
+								</div>
+								<div class="page-two__coment-01">
+									You already have an account with us. Sign in or continue as guest.
+								</div>
+								<div class="page-two__buttons">
+									<div class="page-two__button">
+										<button class="page-two__btn" type="submit" tabindex="19">login</button>
+									</div>
+									<div class="page-two__forgot">
+										<a href="#" class="page-two__forg" tabindex="20">Forgot Your Password?</a>
+									</div>
+								</div>
+							</div>
+						</form>
+						<!-- page-two__login stop -->
+						<!-- page-two__shipping start -->
+						<form class="page-two__form-2" action="#" method="get" enctype="multipart/form-data">
+							<div class="page-two__shopping shopping">
+								<div class="shopping__first-name">
+									<label class="shopping__frst-nm" for="first-name-03">First Name<span
+											class="shopping__red">*</span></label>
+									<input type="text" class="shopping__first-n" id="first-name-03" autocomplete="off" required
+										name="first name" tabindex="21">
+								</div>
+								<div class="shopping__last-name">
+									<label class="shopping__last-nm" for="last-name-03">last Name<span
+											class="shopping__red">*</span></label>
+									<input type="text" class="shopping__last-n" id="last-name-03" autocomplete="off" required
+										name="last name" tabindex="22">
+								</div>
+								<div class="shopping__company">
+									<label class="shopping__com" for="company-03">Company</label>
+									<input type="text" class="shopping__firma" id="company-03" autocomplete="off" name="company"
+										tabindex="23">
+								</div>
+								<div class="shopping__street">
+									<label class="shopping__adress" for="street-03">Street Address<span
+											class="shopping__red">*</span></label>
+									<input type="text" class="shopping__street-adress" id="street-03" autocomplete="off"
+										name="company" tabindex="24">
+								</div>
+								<div class="shopping__street-2">
+									<label class="shopping__adress-2" for="street-04"></label>
+									<input type="text" class="shopping__street-adress-2" id="street-04" autocomplete="off"
+										name="company" tabindex="25">
+								</div>
+								<div class="shopping__street-3">
+									<label class="shopping__adress-3" for="street-05"></label>
+									<input type="text" class="shopping__street-adress-3" id="street-05" autocomplete="off"
+										name="company" tabindex="26">
+								</div>
+								<div class="shopping__country">
+									<label class="shopping__count" for="country-06">Country <span
+											class="shopping__red">*</span></label>
+									<input type="text" class="shopping__cou" id="country-06" autocomplete="off" required
+										name="country" tabindex="27">
+								</div>
+								<div class="shopping__state">
+									<label class="shopping__st" for="state-03">State/Province<span
+											class="shopping__red">*</span></label>
+									<input type="text" class="shopping__province" id="state-03" autocomplete="off" required
+										name="state" tabindex="28">
+								</div>
+							</div>
+							<div class="page-two__shipping-methods shipping-methods">
+								<h2 class="shipping-methods__subtitle">
+									Shipping Methods
+								</h2>
+								<div class="shipping-methods__radio-boxes">
+									<div class="shipping-methods__radio-box">
+										<div class="shipping-methods__radio-row-1">
+											<div class="shipping-methods__radio-1">
+												<input checked class="shipping-methods__radio-input-5" id="mone-01" required
+													value="$5.00" name="mone" type="radio" tabindex="29">
+												<label class="shipping-methods__radio-label-5" for="mone-01">$5.00</label>
+											</div>
+											<div class="shipping-methods__text-1-1">
+												Fixed
+											</div>
+											<div class="shipping-methods__text-1-2">
+												Flat Rate
+											</div>
+										</div>
+										<div class="shipping-methods__radio-row-2">
+											<div class="shipping-methods__radio-2">
+												<input class="shipping-methods__radio-input-10" id="mone-02" required value="$10.00"
+													name="mone" type="radio" tabindex="30">
+												<label class="shipping-methods__radio-label-10" for="mone-02">$10.00</label>
+											</div>
+											<div class="shipping-methods__text-2-1">
+												Table Rate
+											</div>
+											<div class="shipping-methods__text-2-2">
+												Best Way
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="shipping-methods__buttons">
+									<div class="shipping-methods__button-next">
+										<button class="shipping-methods__next" type="submit" tabindex="31">next</button>
+									</div>
+									<div class="shipping-methods__button-back">
+										<button class="shipping-methods__back" type="submit" tabindex="32">Back</button>
+									</div>
+								</div>
+							</div>
+						</form>
+						<!-- page-two__shipping stop -->
+					</div>
+				</div>
+			</div>
+			<!-- page-two stop -->
+		</main>
+		<footer class="footer">
+		</footer>
+	</div>
+</body>
+
+</html>
