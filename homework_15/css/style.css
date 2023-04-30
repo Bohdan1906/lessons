@@ -1,0 +1,242 @@
+/* fonts start */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+/* fonts stop */
+
+/* ============================== */
+
+/* null-style start */
+@import url(../css/null-style.css);
+/* null-style stop */
+
+/* =========================== */
+
+/* wrapper start */
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins" ,serif;
+	max-width: 1440px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.wrapper > main {
+	flex-grow: 1;
+}
+/* wrapper stop */
+
+/* ============================ */
+
+/* main start */
+.main__container{
+	max-width: 1230px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 0 auto;
+}
+/* main stop */
+
+/* =========================== */
+
+/* main header start*/
+	.main__header{
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		padding: 40px 0px;
+	}
+
+	.main__achievement{
+		display: flex;
+	}
+
+	.main__achievement-text{
+		padding: 8px;
+		text-transform: uppercase;
+		color: #000000;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%; /* 24/16 */
+	}
+
+	.main__achievement-lihne{
+		width: 464px;
+		background-color: #000000;
+		margin-top: 18px;
+		margin-left: 26px;
+		align-items: center;
+		height: 2px;
+	}
+/* main header stop */
+
+/* ============================================== */
+/* card start */
+.main__card{
+	display: flex;
+	flex-direction: column;
+}
+
+.main__cards{
+	margin-bottom: 100px;
+	display: flex;
+	row-gap: 40px;
+	flex-direction: column;
+}
+
+.card{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.main__card:hover .card__image{
+	transform: scale(1.05);
+	transition: all 0.4s;
+	opacity: 1;
+}
+/* card stop */
+/* ===================== */
+/* card image start */
+.card__image img{
+	max-width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+}
+/* card image stop */
+
+.card__body{
+	max-width: 28%;
+	justify-content: center;
+	padding-left: 20px;
+}
+
+.card__item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 350px;
+}
+
+.card__title{
+	justify-content: start;
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 141.666667%; /* 34/24 */
+	color: #333333;
+}
+
+.card__text{
+	text-align: justify;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	color: #9C9C9C;
+}
+/* ============================================== */
+/* main room start */
+/* room header start */
+	.room{
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.room__header{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin: 0 auto;
+		margin-bottom: 53px;
+	}
+
+		.room__title{
+		max-width: 500px;
+		padding-left: 7px;
+		padding-right: 7px;
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 135.714286%; /* 76/56 */
+		color: #000000;
+		margin-bottom: 40px;
+	}
+
+	.room__subtitle{
+		max-width: 530px;
+		padding-left: 6px;
+		padding-right: 6px;
+		text-align: center;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 161.111111%; /* 29/18 */
+		color: #000000;
+	}
+/* room header stop */
+
+/* intro start */
+.intro__image img{
+	max-width: 100%;
+	margin-bottom: 100px;
+}
+
+.intro__items{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 32px;
+	margin-bottom: 82px;
+}
+
+.intro__item{
+	flex-direction: column;
+	display: flex;
+	flex: 0 1 50%;
+}
+
+.item-intro__title{
+	margin-bottom: 24px;
+	text-align-last: left;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 141.666667%; /* 34/24 */
+	color: #333333;
+}
+
+.item-intro__text:not(:last-child){
+	margin-bottom: 60px;
+}
+
+.item-intro__text p:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.item-intro__text, .item-intro__footer{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 161.111111%; /* 29/18 */
+	color: #9C9C9C;
+}
+
+.item-intro__footer{
+	display: flex;
+	flex-direction: row;
+	column-gap: 80px;
+}
+
+.presentation{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+	justify-content: space-around;
+	margin-bottom: 32px;
+}
+
+.presentation__picture img{
+	max-width: 100%;
+	text-align: center;
+}
+/* intro stop */
+
