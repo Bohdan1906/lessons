@@ -1,0 +1,328 @@
+/*підключення шрифтів*/
+@import url(https://fonts.googleapis.com/css?family=Sofia+Sans:300,regular,500,700,italic,500italic,700italic,&display=swap);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap&display=swap');
+
+@font-face {
+font-family: 'CircularStd';
+src: url(../fonts/CircularStd-Bold.woff2) format('woff2'),
+	url(../fonts/CircularStd-Bold.woff) format('woff');
+font-weight: bold;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'CircularStd';
+src: url(../fonts/CircularStd-Book.woff2) format('woff2'),
+	url(../fonts/CircularStd-Book.woff) format('woff');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Roboto Condensed';
+src: url(../fonts/RobotoCondensed-BoldItalic.woff2) format('woff2'),
+		url(../fonts/RobotoCondensed-BoldItalic.woff) format('woff');
+font-weight: bold;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Roboto Condensed';
+src: url(../fonts/RobotoCondensed-Bold.woff2) format('woff2'),
+		url(../fonts/RobotoCondensed-Bold.woff) format('woff');
+font-weight: bold;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Roboto Condensed';
+src: url(../fonts/RobotoCondensed-Italic.woff2) format('woff2'),
+		url(../fonts/RobotoCondensed-Italic.woff) format('woff');
+font-weight: normal;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Roboto Condensed';
+src: url(../fonts/RobotoCondensed-Light.woff2) format('woff2'),
+	url(../fonts/RobotoCondensed-Light.woff) format('woff');
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Roboto Condensed';
+src: url(../fonts/RobotoCondensed-LightItalic.woff2) format('woff2'),
+	url(../fonts/RobotoCondensed-LightItalic.woff) format('woff');
+font-weight: 300;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Roboto Condensed';
+src: url(../fonts/RobotoCondensed-Regular.woff2) format('woff2'),
+		url(../fonts/RobotoCondensed-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
+
+/*======================*/
+
+
+/*null-style*/
+@import url(null-style.css);
+/*------------*/
+
+/*---header-start---*/
+.header {
+color: rgba(0, 0, 0, 0.9);
+font-family: Noto;
+font-style: italic;
+font-weight: 500;
+font-size: 25px;
+}
+.title {
+font-family: Solitreo;
+font-weight: 900;
+font-size: 40px;
+text-decoration: underline;
+font-style: normal;
+text-shadow: 15px 10px 5px rgb(0, 0, 0, 0.7);
+}
+
+.history__before {
+	color: blue;
+	text-shadow: 3px 3px 3px #000;
+}
+
+.history__after {
+color: rgb(245, 245, 0.9);
+text-shadow: 3px 3px 3px #000;
+}
+
+.history__after-intrusion {
+text-transform: capitalize;
+}
+
+.after-intrusion__russian-ukrainian-war {
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 700;
+}
+
+.after-intrusion__captivity {
+	text-decoration: overline;
+}
+
+.after-intrusion__kondrashivka {
+	text-shadow: 2px 2px 4px #000;
+}
+
+.after-intrusion__march-of-independence {
+	word-spacing: 20px;
+}
+
+.captivity__link {
+	text-shadow: 2px 3px 4px #000;
+}
+
+.kondrashivka__link {
+	font-weight: 700;
+}
+
+.march-of-independence__link {
+	color: green;
+}
+
+.new-name__link {
+	text-decoration: line-through;
+}
+
+.monument {
+	text-decoration: underline;
+}
+
+.for-courage-and-braver__link {
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+.day-of-mourning__link {
+	line-height: 2;
+	text-decoration: line-through;
+}
+
+.for-courage__link {
+letter-spacing: 7px;
+color: grey;
+}
+/*---header-stop---*/
+
+/*===================================*/
+
+/*---main-start---*/
+
+.intro__paragraph {
+font-weight: 600;
+font-family: 'Poppins';
+}
+
+.intro__paragraph-1 {
+font-family: CircularStd;
+font-weight: bold;
+font-style: normal;
+
+}
+
+.intro__paragraph-2 {
+color: rgb(36, 2, 2);
+text-shadow: 5px 5px 3px rgb(0, 0, 0, 0.4);
+}
+
+.intro__more {
+font-size: 22px;
+}
+
+.intro__paragraph-3 {
+text-decoration: line-through;
+}
+
+.prehistory {
+	font-family: 'Roboto Condensed';
+}
+
+.prehistory__p-1 {
+	font-style: italic;
+	font-size: 18px;
+	color: orangered;
+	font-weight: 600;
+	text-align-last: left;
+	text-transform: capitalize;
+}
+
+.prehistory__p-2 {
+	color: maroon;
+	font-weight: 900;
+	line-height: 2;
+	word-spacing: 15px;
+}
+
+.prehistory__p-3 {
+	color: pink;
+	text-indent: 35px;
+	font-style: italic;
+}
+
+.prehistory__p-4 {
+	word-spacing: 20px;
+	text-indent: 35px;
+	color: blueviolet;
+	font-weight: 600;
+}
+
+.prehistory__p-5 {
+	color: chartreuse;
+	text-shadow: 4px 4px 3px #000;
+}
+
+.prehistory__p-6 {
+	color: rgb(112, 207, 17);
+	text-shadow: 2px 2px 3px #000;
+	text-indent: 20px;
+}
+
+.war {
+	font-family: 'Sofia Sans';
+}
+
+.war__russian-ukrainian-war {
+	color: rgba(0, 0, 0, 0.904);
+	font-style: italic;
+	font-weight: 700;
+	text-indent: 25px;
+	font-size: 18px;
+}
+
+.war__title {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.war__captivity {
+	color: rgb(145, 139, 139);
+	text-shadow: 5px 5px 2px rgb(242, 5, 5, 0.4);
+	font-style: oblique;
+}
+
+.war__kondrashivka {
+	text-indent: 40px;
+	font-style: 20px;
+	color: rgb(186, 7, 7);
+	font-weight: 500;
+}
+
+.war__march-of-independence {
+	font-size: 20px;
+	text-indent: 25px;
+	color: rgba(106, 25, 25, 0.8);
+	text-shadow: -8px -8px 4px #000;
+}
+
+.war__new-name {
+	text-transform: lowercase;
+	text-decoration: overline;
+	font-size: 19px;
+	color: rgba(42, 165, 56, 0.8);
+	font-style: italic;
+	font-weight: 700;
+}
+
+.war__monument {
+	color: yellow;
+	text-shadow: 3px 3px 3px #000;
+	text-indent: 20px;
+	word-spacing: 15px;
+}
+
+.war__for-courage-and-braverY {
+	font-size: 20px;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 5px;
+}
+
+.war__day-of-mourning {
+	text-indent: 30px;
+	font-size: 30px;
+	font-weight: 700;
+	text-shadow: 4px -4px 4px rgb(0, 0, 0, 0.8);
+}
+
+.war__for-courage {
+	color: blue;
+	text-shadow: 4px 4px 3px #000;
+	font-size: 18px;
+	text-decoration: line-through;
+}
+
+/*---main-stop---*/
+
+/*--footer start--*/
+.top{
+	font-family: Arial;
+	font-size: 35px;
+	font-style: italic;
+	font-weight: 900;
+}
+/*--footer stop--*/
